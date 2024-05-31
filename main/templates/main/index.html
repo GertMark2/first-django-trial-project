@@ -1,0 +1,65 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="{% static 'css/products.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в наш интернет-магазин!</h1>
+    </header>
+    <main>
+        <h1>Наш ассортимент товаров</h1>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="{% static 'images/jeremy-beadle-qnU-UR0o5X8-unsplash.jpg' %}" alt="Product 1" class="product-image">
+                <h2 class="product-name">Название товара 1</h2>
+                <p class="product-description">Описание товара 1</p>
+                <p class="product-price">$100</p>
+                <button class="product-button">Добавить в корзину</button>
+            </div>
+            <div class="product-card">
+                <img src="{% static 'images/gregory-hayes-h5cd51KXmRQ-unsplash.jpg' %}" alt="Product 3" class="product-image">
+                <h2 class="product-name">Название товара 2</h2>
+                <p class="product-description">Описание товара 2</p>
+                <p class="product-price">$150</p>
+                <button class="product-button">Добавить в корзину</button>
+            </div>
+            <div class="product-card">
+                <img src="{% static 'images/lexscope-QVFhb-CeBwU-unsplash.jpg' %}" alt="Product 4" class="product-image">
+                <h2 class="product-name">Название товара 3</h2>
+                <p class="product-description">Описание товара 3</p>
+                <p class="product-price">$190</p>
+                <button class="product-button">Добавить в корзину</button>
+            </div>
+            <div class="product-card">
+                <img src="{% static 'images/mohamad-khosravi-5KyzZbonwqQ-unsplash.jpg' %}" alt="Product 5" class="product-image">
+                <h2 class="product-name">Название товара 4</h2>
+                <p class="product-description">Описание товара 4</p>
+                <p class="product-price">$200</p>
+                <button class="product-button">Добавить в корзину</button>
+            </div>
+            <div class="product-card">
+                <img src="{% static 'images/khalid-boutchich-wS1k0VzXVrA-unsplash.jpg' %}" alt="Product 6" class="product-image">
+                <h2 class="product-name">Название товара 5</h2>
+                <p class="product-description">Описание товара 5</p>
+                <p class="product-price">$200</p>
+                <button class="product-button">Добавить в корзину</button>
+            </div>
+            <div class="product-card">
+                <img src="{% static 'images/grigore-ricky-TVUUz6bMFSQ-unsplash.jpg' %}" alt="Product 2" class="product-image">
+                <h2 class="product-name">Название товара 6</h2>
+                <p class="product-description">Описание товара 6</p>
+                <p class="product-price">$200</p>
+                <button class="product-button">Добавить в корзину</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Интернет-магазин. Все права защищены.</p>
+    </footer>
+</body>
+</html>
